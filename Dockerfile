@@ -25,8 +25,8 @@ RUN rm -rf $CATALINA_HOME/webapps/*
 # Copy your .war file into the Tomcat webapps directory
 COPY ROOT.war $CATALINA_HOME/webapps/
 
-# Expose Tomcat port as 7080
-EXPOSE 7080
+# Expose Tomcat port as 8080
+EXPOSE 8080
 
 # Add roles and user to tomcat-users.xml
 RUN echo '<tomcat-users>' > $CATALINA_HOME/conf/tomcat-users.xml && \
