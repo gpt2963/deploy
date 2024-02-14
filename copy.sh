@@ -2,7 +2,7 @@
 
 deploy_dir="/root/Docker/deploy"
 volume_dir="/root/Docker/volume"
-git_repo="https://gpt2963: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@github.com/gpt2963/deploy.git"
+git_repo="https://gpt2963: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@github.com/gpt2963/deploy.git"
 
 # Change directory to deploy_dir
 cd "$deploy_dir" || exit
